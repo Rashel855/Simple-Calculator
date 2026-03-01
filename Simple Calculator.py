@@ -27,11 +27,11 @@ st.title("🧮 Simple Calculator")
 operation = st.selectbox(
     "Choose operation:",
     (
-        "Addition",
-        "Subtraction",
-        "Multiplication",
-        "Division",
-        "Modulo",
+        "Addition '+'",
+        "Subtraction '-'",
+        "Multiplication '*'",
+        "Division '/'",
+        "Modulo '%'",
     ),
 )
 
