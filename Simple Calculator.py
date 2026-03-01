@@ -46,13 +46,13 @@ with col2:
 
 # ---------- Calculate ----------
 if st.button("Calculate"):
-    if operation == "Addition":
+    if operation == "Addition '+'":
         result = add(num1, num2)
-    elif operation == "Subtraction":
+    elif operation == "Subtraction '-'":
         result = subtract(num1, num2)
-    elif operation == "Multiplication":
+    elif operation == "Multiplication '*'":
         result = multiply(num1, num2)
-    elif operation == "Division":
+    elif operation == "Division '/'":
         result = divide(num1, num2)
     else:
         result = modulo(num1, num2)
